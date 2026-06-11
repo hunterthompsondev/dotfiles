@@ -1,0 +1,16 @@
+clang
+cmake
+nodejs
+npm
+dotnet-runtime
+dotnet-sdk
+aspnet-runtime
+go
+jdk-openjdk
+maven
+python
+rustup
+lua
+docker
+docker-compose
+vulkan-devel

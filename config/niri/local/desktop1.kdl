@@ -1,0 +1,35 @@
+output "DP-1" {
+	mode "1920x1080@143.999"
+	scale 1
+	transform "normal"
+	position x=1920 y=0
+    backdrop-color "#101010"
+
+    hot-corners {
+        off
+    }
+}
+
+output "DP-2" {
+	mode "1920x1080@165.003"
+	scale 1
+	transform "normal"
+	position x=0 y=0
+    backdrop-color "#101010"
+
+    hot-corners {
+        off
+    }
+}
+
+output "DP-3" {
+	mode "1920x1080@165.003"
+	scale 1
+	transform "normal"
+	position x=-1920 y=0
+    backdrop-color "#101010"
+
+    hot-corners {
+        off
+    }
+}

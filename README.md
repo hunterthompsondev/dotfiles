@@ -59,9 +59,11 @@ No LSPs, DAPs, etc are installed automatically and must be installed via Mason
 | Vim | [X] | [X] | [X] | [] | [X] | [] | 
 | Vimdoc | [X] | [] | [X] | [] | [X] | [] | 
 
+## [Quickshell](https://git.outfoxxed.me/quickshell/quickshell)
+<img src="images/quickshell.png" align="center" width="800" alt="Description">
 
-### Wallpapers
-This is subset of the wallpapers I found in [this](https://github.com/dharmx/walls/tree/main) repository 
+### [Wallpapers](./wallpapers)
+This is subset of the wallpapers I found in [this](https://github.com/dharmx/walls/tree/main) repository.
 Original authorship and licensing status is largely unknown, therefore all images are assumed to be copyrighted by their respective owners.
 
 ### Helpful links
@@ -70,9 +72,6 @@ Original authorship and licensing status is largely unknown, therefore all image
 - [Microsoft LSP references](https://microsoft.github.io/language-server-protocol/implementors/servers)
 - [Tree-sitter docs](https://tree-sitter.github.io/tree-sitter)
 - [Good query files](https://github.com/nvim-treesitter/nvim-treesitter)
-
-## [Quickshell](https://git.outfoxxed.me/quickshell/quickshell)
-<img src="images/quickshell.png" align="center" width="800" alt="Description">
 
 ## Local Data
 | Path | Description |

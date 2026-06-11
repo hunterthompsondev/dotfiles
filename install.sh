@@ -29,7 +29,7 @@ ln -sfn "$DOTFILES_PATH"/wallpapers "$LOCAL_SHARE"/wallpapers
 rustup default stable
 
 # Install Paru
-source "$DOTFILES_PATH"/install-paru.sh
+source "$DOTFILES_PATH"/install-scripts/install-paru.sh
 
 # Finish neovim setup 
 source "$DOTFILES_PATH"/install-scripts/install-nvim-parsers.sh

@@ -26,6 +26,11 @@ ln -sfn "$DOTFILES_PATH"/config/quickshell "$HOME"/.config/quickshell
 ln -sfn "$DOTFILES_PATH"/scripts "$LOCAL_SHARE"/scripts
 ln -sfn "$DOTFILES_PATH"/wallpapers "$LOCAL_SHARE"/wallpapers
 
+rustup default stable
+
+# Install Paru
+source "$DOTFILES_PATH"/install-paru.sh
+
 # Finish neovim setup 
 source "$DOTFILES_PATH"/install-scripts/install-nvim-parsers.sh
 

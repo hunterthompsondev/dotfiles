@@ -49,23 +49,6 @@ Singleton {
             }
         }
     }
-    // Process {
-    //     id: dataProcess 
-    //     command: ["playerctl", "--player=spotify", "metadata", "--format",
-    //               "{{title}}|{{artist}}|{{album}}|{{mpris:artUrl}}"]
-    //     running: true
-    //
-    //     stdout: StdioCollector {
-    //         onStreamFinished: {
-    //             var parts = this.text.trim().split("|")
-    //             var lengthM
-    //             root.title   = parts[0] ?? ""
-    //             root.artist  = parts[1] ?? ""
-    //             root.album   = parts[2] ?? ""
-    //             root.artUrl  = parts[3] ?? ""
-    //         }
-    //     }
-    // }
 
     Timer {
         interval: 1000

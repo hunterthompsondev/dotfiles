@@ -27,18 +27,20 @@ binds {
     Mod+Return hotkey-overlay-title="Open terminal" { spawn-sh "ghostty"; }
 
     // Window navigation
-    Mod+H hotkey-overlay-title="Focus window left" { focus-column-or-monitor-left; }
+    Mod+H hotkey-overlay-title="Focus window left" { focus-column-left; }
     Mod+Shift+H hotkey-overlay-title="Focus monitor left" {focus-monitor-left; }
     Mod+J hotkey-overlay-title="Focus workspace down" { focus-workspace-down; }
     Mod+K hotkey-overlay-title="Focus workspace up" { focus-workspace-up; }
-    Mod+L hotkey-overlay-title="Focus window right" { focus-column-or-monitor-right; }
+    Mod+L hotkey-overlay-title="Focus window right" { focus-column-right; }
     Mod+Shift+L hotkey-overlay-title="Focus monitor right" {focus-monitor-right; }
 
     // Window positioning 
-    Mod+Ctrl+H hotkey-overlay-title="Move window left" { move-column-left-or-to-monitor-left; }
+    Mod+Ctrl+H hotkey-overlay-title="Move window left" { move-column-left; }
+    Mod+Ctrl+Shift+H hotkey-overlay-title="Move window to left monitor" { move-column-to-monitor-left; }
     Mod+Ctrl+J hotkey-overlay-title="Move window down" { move-column-to-workspace-down; }
     Mod+Ctrl+K hotkey-overlay-title="Move window up" { move-column-to-workspace-up; }
-    Mod+Ctrl+L hotkey-overlay-title="Move window right" { move-column-right-or-to-monitor-right; }
+    Mod+Ctrl+L hotkey-overlay-title="Move window right" { move-column-right; }
+    Mod+Ctrl+Shift+L hotkey-overlay-title="Move window to right monitor" { move-column-to-monitor-right; }
     Mod+BracketLeft hotkey-overlay-title="Stack window left" { consume-or-expel-window-left; }
     Mod+BracketRight hotkey-overlay-title="Unstack window right" { consume-or-expel-window-right; }
     Mod+V hotkey-overlay-title="Float window" { toggle-window-floating; }
